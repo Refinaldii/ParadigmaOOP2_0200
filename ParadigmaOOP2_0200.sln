@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiWaris", "MultiWaris\Mu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "abstraskiHeaader", "abstraskiHeaader\abstraskiHeaader.vcxproj", "{EDEEF764-8974-4FFF-B00B-8D266CDBDA2A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SolusiMulti waris", "SolusiMulti waris\SolusiMulti waris.vcxproj", "{F3743E62-8DBC-4532-BB25-0D3F7FF30223}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{EDEEF764-8974-4FFF-B00B-8D266CDBDA2A}.Release|x64.Build.0 = Release|x64
 		{EDEEF764-8974-4FFF-B00B-8D266CDBDA2A}.Release|x86.ActiveCfg = Release|Win32
 		{EDEEF764-8974-4FFF-B00B-8D266CDBDA2A}.Release|x86.Build.0 = Release|Win32
+		{F3743E62-8DBC-4532-BB25-0D3F7FF30223}.Debug|x64.ActiveCfg = Debug|x64
+		{F3743E62-8DBC-4532-BB25-0D3F7FF30223}.Debug|x64.Build.0 = Debug|x64
+		{F3743E62-8DBC-4532-BB25-0D3F7FF30223}.Debug|x86.ActiveCfg = Debug|Win32
+		{F3743E62-8DBC-4532-BB25-0D3F7FF30223}.Debug|x86.Build.0 = Debug|Win32
+		{F3743E62-8DBC-4532-BB25-0D3F7FF30223}.Release|x64.ActiveCfg = Release|x64
+		{F3743E62-8DBC-4532-BB25-0D3F7FF30223}.Release|x64.Build.0 = Release|x64
+		{F3743E62-8DBC-4532-BB25-0D3F7FF30223}.Release|x86.ActiveCfg = Release|Win32
+		{F3743E62-8DBC-4532-BB25-0D3F7FF30223}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

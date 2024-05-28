@@ -1,46 +1,49 @@
-#include <iostream>
+#include <iostream> 
 using namespace std;
 
-class orang {
-public:
-    int umur;
 
-    orang(int pUmur) :
-        umur(pUmur)
-    {
-        cout << "orang dibuat dengan umur " << umur << "\n" << endl;
-    }
-};
-
-class pekerja : virtual public orang {
-public :
-    pekerja(int pUmur) :
-        orang(pUmur)
-    {
-        cout << "pekerja dibuat\n" << endl;
-    }
-};
-class pelajar : virtual public orang {
+class Orang {
 public:
-    pelajar(int pUmur) :
-        orang(pUmur)
-    {
-        cout << "pelajar dibuat\n" << endl;
-    }
+	int umur;
+
+	Orang(int pUmur) :
+		umur(pUmur)
+	{
+		cout << "orang dibuat dengan umur " << umur << "\n" << endl;
+	}
 };
 
-class budi : public pekerja, public pelajar {
+class Pekerja : virtual public Orang {
 public:
-    budi(int pUmur) :
-        pekerja(pUmur),
-        pelajar(pUmur),
-        orang(pUmur)
-    {
-        cout << "Budi di buat\n" << endl;
-    }
+	Pekerja(int pUmur) :
+		Orang(pUmur) {
+		cout << "pekerja dibuat\n" << endl;
+	}
 };
-int main()
-{
-    std::cout << "Hello World!\n";
+
+class Pelajar : virtual public Orang {
+public:
+	Pelajar(int pUmur) :
+		Orang(pUmur)
+	{
+		cout << "pelajar dibuat\n" << endl;
+	}
+};
+
+class Budi : public Pekerja, public Pelajar {
+public:
+
+	Budi(int pUmur) :
+		Pekerja(pUmur),
+		Pelajar(pUmur),
+		Orang(pUmur)  //hal ini dapat dilakukan jika menggunakan virtual 
+	{
+		cout << "budi dibuat\n" << endl;
+	}
+};
+
+int main() {
+	Budi a(12);
+
+	return 0;
 }
-
