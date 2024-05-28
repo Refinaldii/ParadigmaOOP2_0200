@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{faad4eda-bd26-42a9-87a5-0105e6b8ff73}</ProjectGuid>
-    <RootNamespace>abstraksi</RootNamespace>
+    <ProjectGuid>{edeef764-8974-4fff-b00b-8d266cdbda2a}</ProjectGuid>
+    <RootNamespace>abstraskiHeaader</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="abstraksi.cpp" />
+    <ClCompile Include="abstraskiHeaader.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
